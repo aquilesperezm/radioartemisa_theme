@@ -1,7 +1,8 @@
 /*==================== Basic Style & Pseudo Classes & Elements ====================*/
 
 :root {
-    --dt-main-rgb: 17, 81, 211; /*33, 97, 87; 17, 173, 109; 245, 73, 35; 255, 0, 61; 255, 76, 96;*/
+   /* --dt-main-rgb: 17, 81, 211; /*33, 97, 87; 17, 173, 109; 245, 73, 35; 255, 0, 61; 255, 76, 96;*/
+   --dt-main-rgb: 119, 15,18;
     --dt-main-color: rgba(var(--dt-main-rgb));
     --dt-secondary-color: #121418;
     --dt-text-color: #5c6777;
