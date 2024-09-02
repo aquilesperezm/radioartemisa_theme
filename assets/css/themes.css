@@ -6886,7 +6886,7 @@ span.amount {
     position: fixed;
     left: 0;
     top: 0;
-    height: 100vh;
+    height: 60vh;
     width: 100%;
     z-index: 99999;
     margin-top: -54rem;
@@ -7038,7 +7038,7 @@ span.amount {
 .header--one .dt_navbar-menu {
     padding: 0;
     min-height: 5.2rem;
-    justify-content: space-between;
+   /* justify-content: space-between; */
 }
 
 .header--one .dt_navbar-wrapper.is--sticky.on .dt_navbar-inner {
@@ -7787,7 +7787,7 @@ main {
 
 .popular-categories .post.slick-slide:nth-child(7n+2),
 .post .category-badge a:nth-child(7n+2) {
-	--dt-main-color: #52a815;
+	--dt-main-color:#47770f;
 }
 
 .popular-categories .post.slick-slide:nth-child(7n+3),
@@ -7797,7 +7797,7 @@ main {
 
 .popular-categories .post.slick-slide:nth-child(7n+4),
 .post .category-badge a:nth-child(7n+4) {
-	--dt-main-color: #ff002a;
+	--dt-main-color: #fbff00;
 }
 
 .popular-categories .post.slick-slide:nth-child(7n+5),
