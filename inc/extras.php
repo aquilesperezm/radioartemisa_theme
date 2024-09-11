@@ -412,7 +412,7 @@ NewsMunch Footer Copyright
 =========================================*/
 if ( ! function_exists( 'newsmunch_footer_copyright_data' ) ) :
 function newsmunch_footer_copyright_data() {
-	$newsmunch_footer_copyright_text = get_theme_mod('newsmunch_footer_copyright_text','Copyright &copy; [current_year] [site_title] | Powered by [theme_author]');
+	$newsmunch_footer_copyright_text = get_theme_mod('newsmunch_footer_copyright_text','Copyright &copy; [current_year] [site_title] | Desarrollado por Ing. Aquiles Pérez Miranda');
 	?>
 	<?php if(!empty($newsmunch_footer_copyright_text)): 
 			$newsmunch_copyright_allowed_tags = array(
