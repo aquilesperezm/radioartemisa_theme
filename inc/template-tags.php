@@ -501,6 +501,10 @@ if($newsmunch_hs_hdr == '1') {
 				<div class="dt_header-wrap right">
 					<?php  do_action('newsmunch_header_date'); ?>
 					<?php  do_action('newsmunch_header_weather'); ?>
+				<!-- outputs a flags list (without languages names) -->
+					<ul>
+					<?php pll_the_languages( array( 'show_flags' => 1,'show_names' => 0 ) ); ?>
+					</ul>
 				</div>
 			</div>
 		</div>

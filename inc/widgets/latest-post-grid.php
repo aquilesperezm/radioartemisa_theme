@@ -69,7 +69,7 @@ if (!class_exists('newsmunch_Latest_Post_Grid_Widget')) :
 							$newsmunch_hs_latest_post_social_share= get_theme_mod('newsmunch_hs_latest_post_social_share');
 							$newsmunch_hs_latest_post_reading_meta= get_theme_mod('newsmunch_hs_latest_post_reading_meta');
 							$newsmunch_latest_post_rm_type= get_theme_mod('newsmunch_latest_post_rm_type','style-1');
-							$newsmunch_latest_post_rm_lbl= get_theme_mod('newsmunch_latest_post_rm_lbl','Continue reading');
+							$newsmunch_latest_post_rm_lbl= get_theme_mod('newsmunch_latest_post_rm_lbl','Continuar leyendo');
 							$newsmunch_hs_latest_post_format_icon	= get_theme_mod('newsmunch_hs_latest_post_format_icon','1');
 							 if ($all_posts->have_posts()) :
 							while ($all_posts->have_posts()) : $all_posts->the_post();

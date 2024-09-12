@@ -1225,7 +1225,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 	$wp_customize->add_setting(
     	'newsmunch_latest_post_rm_lbl',
     	array(
-	        'default'			=> __('Continue reading','newsmunch'),
+	        'default'			=> __('Continuar leyendo','newsmunch'),
 			'capability'     	=> 'edit_theme_options',
 			'sanitize_callback' => 'newsmunch_sanitize_html',
 			'priority' => 2,

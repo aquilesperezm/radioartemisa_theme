@@ -1,5 +1,5 @@
 <?php
-$newsmunch_related_post_ttl		= get_theme_mod('newsmunch_related_post_ttl','Related Posts');
+$newsmunch_related_post_ttl		= get_theme_mod('newsmunch_related_post_ttl','Articulos relacionados');
 $newsmunch_archives_post_layout = get_theme_mod('newsmunch_archives_post_layout', 'list');
 ?>
 <div class="spacer" data-height="50" style="height: 50px;"></div>

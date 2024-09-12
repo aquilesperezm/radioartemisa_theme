@@ -6886,7 +6886,7 @@ span.amount {
     position: fixed;
     left: 0;
     top: 0;
-    height: 60vh;
+    height: 75vh;
     width: 100%;
     z-index: 99999;
     margin-top: -54rem;
@@ -6953,7 +6953,7 @@ span.amount {
 .dt_header-search--active .search--header .dt_search-close {
     visibility: visible;
     opacity: 1;
-    top: 50%;
+    top: 60%;
     transition-delay: 1500ms;
 }
 
